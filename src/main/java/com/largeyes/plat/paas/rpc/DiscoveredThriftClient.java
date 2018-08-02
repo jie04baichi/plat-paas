@@ -6,8 +6,9 @@ import org.apache.thrift.transport.TFramedTransport;
 import org.apache.thrift.transport.TSocket;
 import org.apache.thrift.transport.TTransport;
 
-import com.largeyes.plat.paas.rpc.client.AbstractThriftServiceClient;
-import com.largeyes.plat.paas.rpc.server.ThriftServiceMetadata;
+import com.sohu.pp.common.discovery.ServiceDiscoverer;
+import com.sohu.pp.common.thrift.ThriftServiceMetadata;
+import com.sohu.pp.common.thrift.client.AbstractThriftServiceClient;
 
 public class DiscoveredThriftClient extends AbstractThriftServiceClient {
 

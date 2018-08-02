@@ -9,9 +9,10 @@ import java.util.UUID;
 
 import org.apache.curator.x.discovery.ServiceInstance;
 
-import com.largeyes.plat.paas.rpc.server.ThriftServer;
-import com.largeyes.plat.paas.rpc.server.ThriftServiceMetadata;
 import com.largeyes.plat.paas.utils.NetworkUtil;
+import com.sohu.pp.common.discovery.ServiceDiscoverer;
+import com.sohu.pp.common.thrift.ThriftServiceMetadata;
+import com.sohu.pp.common.thrift.server.ThriftServer;
 
 public class DiscoveredThriftServer extends ThriftServer {
 
